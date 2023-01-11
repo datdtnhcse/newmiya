@@ -10,6 +10,8 @@ import Single from "./pages/Single"
 import Write from "./pages/Write"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
+import "./style.scss"
+
 
 const Layout = () => {
   return (
