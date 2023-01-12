@@ -2,7 +2,12 @@ $lightGreen: #b9e7e7;
 
 
 .app {
+    display: flex;
+    justify-content: center;
     .container {
+        width: 1024px;
+
+        
         // LOGIN and REGISTER
         .auth{
             display: flex;
@@ -50,6 +55,59 @@ $lightGreen: #b9e7e7;
             span {
                 font-size: 12px;
                 text-align: center;
+            }
+        }
+
+        // NAVBAR
+
+        .navbar {
+            .container {
+                padding: 10px 0px;
+                display: flex; 
+                align-items: center;
+                justify-content: space-between;
+                .logo {
+                    img {
+                        width: 120px;
+                    }
+                }
+                .links {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .link {
+                        text-decoration: none;
+                        color: inherit;
+                        
+                        h6 {
+                            font-size: 16px;
+                            font-weight: 300;
+                        }
+                    }
+
+                    span {
+                        cursor: pointer;
+                    }
+
+                    .write {
+                        background: $lightGreen;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-weight: 300;
+                        border: 1px solid white;
+
+                        &:hover {
+                            color: teal;
+                            background-color: white;
+                            border: 1px solid teal;
+                        }
+                    }
+                }
             }
         }
     }
