@@ -1,2 +1,2 @@
 # newmiya
-Newmiya - a social media web app using React, Node.js and MySQL
+Newmiya (new Namiya) - a social media web app using React, Node.js and MySQL
