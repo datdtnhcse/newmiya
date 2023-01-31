@@ -208,5 +208,38 @@ $lightGreen: #b9e7e7;
                 }
             }
         }
+
+        // SINGLE
+
+        .single {
+            display: flex;
+            gap: 50px;
+
+            .content {
+                flex: 5;
+
+                .user {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: 14px;
+                    
+                    img {
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 50%;
+                      object-fit: cover;
+                    }
+          
+                    span {
+                      font-weight: bold;
+                    }
+                  }
+            }
+
+            .menu {
+                flex: 2;
+            }
+        }
     }
 }
